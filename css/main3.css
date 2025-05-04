@@ -1,0 +1,68 @@
+#Projects{
+  background-color: black;
+  padding: 100px;
+  height: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.project-title{
+  color: rgb(82, 82, 255);
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.collection{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.col1{
+  margin-bottom: 20px;
+}
+
+.project{
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px;
+  width: 300px;
+  padding: 3px;
+  transition: 0.4s;
+}
+
+.project:hover{
+  transform: scale(1.1);
+}
+
+.img{
+height: 300px;
+border: 2px gainsboro solid;
+margin-bottom: 20px;
+}
+
+.project-description{
+  font-size: 14px;
+  padding: 0 10px;
+}
+
+.Detail{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.dev-books{
+  font-weight: bold;
+}
+
+.info{
+  color: rgb(82, 82, 255);
+  font-weight: bold;
+}

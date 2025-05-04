@@ -1,0 +1,49 @@
+#Contacts{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.contact-title{
+  color: rgb(82, 82, 255);
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.contact-ways{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 10px;
+}
+
+.way{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 0 15px gainsboro;
+  width: 300px;
+  height: 250px;
+  padding: 30px;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+.way:hover{
+  transform: scale(1.1);
+}
+
+.contact-name{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.contact-owner{
+  font-size: 23px;
+}
